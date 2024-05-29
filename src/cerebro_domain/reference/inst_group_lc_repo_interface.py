@@ -12,5 +12,5 @@ class InstGroupLcMap(BaseModel):
 
 
 class InstGroupLcRepoInterface(ABC):
-    def get_mappings(self):
+    def get_mappings(self, inst_groups: list[str]):
         pass

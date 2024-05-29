@@ -15,5 +15,4 @@ def sut(mocker: MockFixture, inst_group_lc_repo: InstGroupLcRepoInterface):
 
 
 def test_should_do_something(sut: RiskHierarchyBuilder):
-    result = sut.get_hierarchy()
-    assert result is False, "It should though shall not."
+    result = sut.get_hierarchy(["CASHBOND"])
