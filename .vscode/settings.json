@@ -7,5 +7,7 @@
     "python.envFile": "${workspaceFolder}/.env",
     "cSpell.words": [
         "cerebro"
-    ]
+    ],
+    "python.analysis.typeCheckingMode": "basic",
+    "python.analysis.autoImportCompletions": true
 }

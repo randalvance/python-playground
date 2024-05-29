@@ -1,5 +1,6 @@
 from datetime import date
-from pydantic import BaseModel
+from pydantic import BaseModel, ConfigDict
+from pydantic.alias_generators import to_camel
 from abc import ABC, abstractmethod
 
 __all__ = ["InstGroupLcRepoInterface"]
@@ -9,8 +10,12 @@ class InstGroupLcMap(BaseModel):
     limit_category: str
     start_date: date
     end_date: date
+    model_config=ConfigDict(
+        alias_generator=to_camel
+    )
 
 
 class InstGroupLcRepoInterface(ABC):
-    def get_mappings(self, inst_groups: list[str]):
+    @abstractmethod
+    async def get_mappings(self, inst_groups: list[str]) -> list[InstGroupLcMap]:
         pass
