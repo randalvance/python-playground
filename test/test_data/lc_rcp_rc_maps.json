@@ -1,0 +1,49 @@
+[
+    {
+        "limitCategory": "LC1",
+        "reportingCategory": "RPC1",
+        "riskCategory": "RC1",
+        "startDate": "2020-01-01",
+        "endDate": "2024-12-31"
+    },
+
+    {
+        "limitCategory": "LC1",
+        "reportingCategory": "RPC2",
+        "riskCategory": "RC1",
+        "startDate": "2025-01-01",
+        "endDate": "2077-12-31"
+    },
+
+    {
+        "limitCategory": "LC1",
+        "reportingCategory": "RPC2",
+        "riskCategory": "RC2",
+        "startDate": "2078-01-01",
+        "endDate": "2999-12-31"
+    },
+
+    {
+        "limitCategory": "LC2",
+        "reportingCategory": "RPC1",
+        "riskCategory": "RC1",
+        "startDate": "2020-01-01",
+        "endDate": "2050-12-31"
+    },
+
+    {
+        "limitCategory": "LC2",
+        "reportingCategory": "RPC1",
+        "riskCategory": "RC2",
+        "startDate": "2051-01-01",
+        "endDate": "2077-12-31"
+    },
+
+    {
+        "limitCategory": "LC2",
+        "reportingCategory": "RPC2",
+        "riskCategory": "RC2",
+        "startDate": "2078-01-01",
+        "endDate": "2999-12-31"
+    }
+]

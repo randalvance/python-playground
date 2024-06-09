@@ -1,8 +1,14 @@
 [
     {
         "instGroup": "IG1",
-        "limitCategory": "LG1",
+        "limitCategory": "LC1",
         "startDate": "2020-01-01",
+        "endDate": "2050-12-31"
+    },
+    {
+        "instGroup": "IG1",
+        "limitCategory": "LC2",
+        "startDate": "2051-01-01",
         "endDate": "2999-12-31"
     }
 ]

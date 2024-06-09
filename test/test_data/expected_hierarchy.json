@@ -1,0 +1,56 @@
+[
+    {
+        "startDate": "2020-01-01",
+        "endDate": "2024-12-31",
+        "hierarchy": {
+            "type": "RC",
+            "code": "RC1",
+            "chilren": [
+                {
+                    "type": "RPC",
+                    "code": "RPC1",
+                    "children": [
+                        {
+                            "type": "LC",
+                            "code": "LC1",
+                            "children": [
+                                {
+                                    "type": "IG",
+                                    "code": "IG1",
+                                    "children": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "startDate": "2025-01-01",
+        "endDate": "2050-12-31",
+        "hierarchy": {
+            "type": "RC",
+            "code": "RC1",
+            "children": []
+        }
+    },
+    {
+        "startDate": "2051-01-01",
+        "endDate": "2077-12-31",
+        "hierarchy": {
+            "type": "RC",
+            "code": "RC1",
+            "children": []
+        }
+    },
+    {
+        "startDate": "2078-01-01",
+        "endDate": "2999-12-31",
+        "hierarchy": {
+            "type": "RC",
+            "code": "RC2",
+            "children": []
+        }
+    }
+]
