@@ -36,7 +36,4 @@ class RiskHierarchyBuilder:
         first_item = next(iter(lc_rpc_rc_maps), None)
         if first_item is None:
             return [] 
-        return [
-            RiskHierarchyPeriod(start_date=first_item.start_date,
-                                end_date=first_item.end_date,
-                                hierarchy=RiskHierarchyNode(type=first_item.limit_category, code=first_item.limit_category))]
+        return []

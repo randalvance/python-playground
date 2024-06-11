@@ -32,7 +32,25 @@
         "hierarchy": {
             "type": "RC",
             "code": "RC1",
-            "children": []
+            "children": [
+                {
+                    "type": "RPC",
+                    "code": "RPC2",
+                    "children": [
+                        {
+                            "type": "LC",
+                            "code": "LC1",
+                            "children": [
+                                {
+                                    "type": "IG",
+                                    "code": "IG1",
+                                    "children": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
         }
     },
     {
@@ -41,7 +59,25 @@
         "hierarchy": {
             "type": "RC",
             "code": "RC1",
-            "children": []
+            "children": [
+                {
+                    "type": "RPC",
+                    "code": "RPC1",
+                    "children": [
+                        {
+                            "type": "LC",
+                            "code": "LC2",
+                            "children": [
+                                {
+                                    "type": "IG",
+                                    "code": "IG1",
+                                    "children": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
         }
     },
     {
