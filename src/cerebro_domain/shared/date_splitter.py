@@ -28,7 +28,7 @@ def date_splitter(inputs: list[DateRange]) -> list[DateRange]:
     # Sort the dates by start date
     sorted_date_ranges = sorted(inputs, key=lambda d: d.start)
 
-    pending_date_ranges = []
+    pending_date_ranges: list[DateRange] = []
     min_start_date = sorted_date_ranges[0].start
     cursor = 0
     next_start_date = min_start_date
