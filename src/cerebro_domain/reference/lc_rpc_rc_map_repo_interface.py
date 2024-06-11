@@ -5,6 +5,7 @@ from abc import ABC, abstractmethod
 
 
 class LcRpcRcMap(BaseModel):
+    id: int
     limit_category: str
     reporting_category: str
     risk_category: str

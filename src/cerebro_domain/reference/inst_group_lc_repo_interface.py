@@ -6,6 +6,7 @@ from abc import ABC, abstractmethod
 __all__ = ["InstGroupLcRepoInterface"]
 
 class InstGroupLcMap(BaseModel):
+    id: int
     inst_group: str
     limit_category: str
     start_date: date
